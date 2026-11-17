@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Princewill, a software engineering student.">
+  <title>Princewill | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">P<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Princewill<span>.</span></h1>
+        <h2>Software Engineering Student</h2>
+        <p class="intro">I’m learning to turn ideas into useful, simple and well-designed digital experiences. Explore what I’m learning and building.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="code-card">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <p><span class="purple">const</span> developer = {</p>
+          <p class="indent">name: <span class="green">'Princewill'</span>,</p>
+          <p class="indent">focus: <span class="green">'Building'</span>,</p>
+          <p class="indent">status: <span class="green">'Learning'</span></p>
+          <p>};</p>
+          <p class="code-comment">// always improving 🚀</p>
+        </div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="section-title">Curious mind. <span>Growing developer.</span></h2>
+        <p class="body-copy">I’m a software engineering student building my foundation in programming and web development. I enjoy learning how applications work, solving problems, and bringing projects to life one step at a time.</p>
+        <p class="body-copy">My current focus is strengthening my skills in HTML, CSS, JavaScript and Java while developing practical projects.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2 class="section-title">My <span>skills</span></h2>
+      <div class="skills-grid">
+        <article class="skill"><b>HTML</b><span>Page structure</span></article>
+        <article class="skill"><b>CSS</b><span>Styling and layouts</span></article>
+        <article class="skill"><b>JavaScript</b><span>Programming fundamentals</span></article>
+        <article class="skill"><b>Java</b><span>Object-oriented programming</span></article>
+        <article class="skill"><b>Git</b><span>Version control basics</span></article>
+        <article class="skill"><b>Problem solving</b><span>Learning every day</span></article>
+      </div>
+    </section>
+
+    <section class="section soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2 class="section-title">Projects I'm <span>building</span></h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon">₦</div>
+            <p class="project-type">WEB APPLICATION</p>
+            <h3>Expense Tracker Pro</h3>
+            <p>A personal finance app concept for recording income and expenses, organizing transactions and viewing spending.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">◯</div>
+            <p class="project-type">JAVA / GUI</p>
+            <h3>Shape Display</h3>
+            <p>A desktop application concept for selecting and drawing shapes such as circles, rectangles and triangles.</p>
+            <div class="tags"><span>Java</span><span>Java Swing</span></div>
+          </article>
+          <article class="project-card project-placeholder">
+            <div class="project-icon">＋</div>
+            <p class="project-type">COMING SOON</p>
+            <h3>Next project</h3>
+            <p>This space is ready for another project as your experience grows.</p>
+            <div class="tags"><span>Keep building</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container narrow">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Have an idea? <span>Let's talk.</span></h2>
+        <p class="body-copy">I'm open to learning opportunities, collaboration and connecting with other people in tech.</p>
+        <a class="button primary" href="mailto:your-email@example.com">Email me</a>
+        <p class="contact-note">Replace the email address with your real email before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> Princewill</span><span>Built with curiosity and code.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
